@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 /*
- * main - produces "Programming is like building a multilingual puzzle
+ * main - Will output "Programming is like building a multilingual puzzle 
+ * Returns 0 for exiting
  */
 int main(void)
 {
