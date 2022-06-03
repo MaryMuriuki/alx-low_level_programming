@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-i/**
+/**
  * main - prints a full sentence str
  * Return: 1 exits
  *
