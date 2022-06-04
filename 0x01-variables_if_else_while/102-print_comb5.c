@@ -20,8 +20,8 @@ int main(void)
 				putchar((m % 10) + 48);
 				if (n != 98 || m != 99)
 				{
-					putchar(' ');
 					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
