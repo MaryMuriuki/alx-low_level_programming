@@ -20,7 +20,7 @@ int print_sign(int n)
 	}
 	else if (n < 0)
 	{
-		_putchar('_');
+		_putchar('-');
 	}
 		return (-1);
 }
