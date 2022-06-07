@@ -1,4 +1,4 @@
-#include "alx.h"
+#include "main.h"
 /**
  * main - func will print _putchar
  * Return: is 0 if it exits with no error
