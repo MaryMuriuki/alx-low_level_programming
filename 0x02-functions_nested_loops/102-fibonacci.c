@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - print the frist 50 fibonacci numbers
  * starting with 1 and 2
@@ -27,5 +26,4 @@ int main(void)
 		b = c;
 		c = next;
 	}
-	return (0);
-}		
+	return (0); }
