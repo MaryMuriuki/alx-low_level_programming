@@ -1,11 +1,11 @@
 #include "main.h"
+
 /**
- * print_diagonal - draws a diagonal line on terminal
- * @n: number of times to print xter \
+ * print_diagonal -prints diagonal line in #
+ * @n: number of times to print #
  */
 void print_diagonal(int n)
 {
-
 	if (n <= 0)
 	{
 		_putchar('\n');
