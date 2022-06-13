@@ -1,5 +1,6 @@
 #ignore all main.c files
 *-main.c
+
 #ignore all compiled file
 0-98
 1-swap
