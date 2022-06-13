@@ -1,6 +1,6 @@
 #include "main.h"
-/** 
- * _atoi - convert string to integer
+/**
+ *_atoi - convert string to integer
  * @s: string to be converted
  * Return: the converted string in the form of int
  */
@@ -38,5 +38,4 @@ int _atoi(char *s)
 	}
 	if (d == 0)
 		return (0);
-	return (c);
 }
