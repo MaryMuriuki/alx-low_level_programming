@@ -7,10 +7,10 @@
  */
 int word_c(char *s)
 {
-	int calc, words, a;
+	int calc, w, a;
 
 	calc = 0;
-	words = 0;
+	w = 0;
 
 	for (a = 0; s[a] != '\0'; a++)
 	{
@@ -19,10 +19,10 @@ int word_c(char *s)
 		else if (calc == 0)
 		{
 			calc = 1;
-			words++;
+			w++;
 		}
 	}
-	return (words);
+	return (w);
 }
 /**
  * strtow - splits a string into words
