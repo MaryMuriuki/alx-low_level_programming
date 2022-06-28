@@ -7,10 +7,10 @@
  */
 int word_c(char *s)
 {
-	int calc, w, a;
+	int calc, words, a;
 
 	calc = 0;
-	w = 0;
+	words = 0;
 
 	for (a = 0; s[a] != '\0'; a++)
 	{
@@ -19,10 +19,10 @@ int word_c(char *s)
 		else if (calc == 0)
 		{
 			calc = 1;
-			w++;
+			words++;
 		}
 	}
-	return (w);
+	return (words);
 }
 /**
  * strtow - splits a string into words
@@ -32,7 +32,7 @@ int word_c(char *s)
 char **strtow(char *str)
 {
 	char **array, *tmp;
-	int a, b, leng, neno, c, start, end;
+	int a, b, leng, words, c, start, end;
 
 	b = 0;
 	leng = 0;
@@ -41,10 +41,10 @@ char **strtow(char *str)
 	while (*(str + leng))
 		leng++;
 	neno = word_c(str);
-	if (neno == 0)
+	if (words == 0)
 		return (NULL);
 
-	array = (char **) malloc(sizeof(char *) * (neno + 1));
+	array = (char **) malloc(sizeof(char *) * (words + 1));
 	if (array == NULL)
 		return (NULL);
 
