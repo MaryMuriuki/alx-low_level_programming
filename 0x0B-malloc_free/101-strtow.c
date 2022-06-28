@@ -32,7 +32,7 @@ int word_c(char *s)
 char **strtow(char *str)
 {
 	char **array, *tmp;
-	int a, b, leng, words, c, start, end;
+	int a, b, leng, neno, c, start, end;
 
 	b = 0;
 	leng = 0;
@@ -40,11 +40,11 @@ char **strtow(char *str)
 
 	while (*(str + leng))
 		leng++;
-	words = word_c(str);
-	if (words == 0)
+	neno = word_c(str);
+	if (neno == 0)
 		return (NULL);
 
-	array = (char **) malloc(sizeof(char *) * (words + 1));
+	array = (char **) malloc(sizeof(char *) * (neno + 1));
 	if (array == NULL)
 		return (NULL);
 
